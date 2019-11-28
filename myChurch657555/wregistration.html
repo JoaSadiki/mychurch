@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>worshipper Registration</title>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<style>
+
+ul{
+padding:0;
+margin:0;
+list-style:none;
+
+}
+ul li{
+float:left;
+color: #ffffff;
+width: 260px;
+height: 40px;
+background:#000000;
+opacity: .8;
+
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+margin-left: 3px;}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color:  #C93;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+a{
+color:  #09C;
+}
+a:hover {
+background-color: #0CF;}
+</style>
+
+<script type="text/javascript">
+function check()
+{
+if(document.getElementById("pass").value !=
+document.getElementById("password").value)
+alert("Please enter correct password");
+else
+alert("Form has been submitted");
+}
+</script>
+</head>
+
+<body style=" background-image:url(image/tithe2.jpg); background-repeat:no-repeatm">
+<div style="position:absolute; left: 86px; top: 23px;">
+  
+<div style="background-image:url(image/the-wave-sheaf-offering-a-ceremony-foreshadowing-salvation_1.jpg); width: 1074px; top: 34px; left: 291px; height: 184px; position:absolute;">
+<h1 style="position:absolute; left: 85px; top: 69px; font-size:50px; font-family:Georgia,; color: #333; width: 730px; height: 53px;"Times New Roman", Times, serif;">Worshipper Registration</h1>
+</div>
+
+
+<form name="registration" method="post"  action="" style="border-style: outset; background-color:  #036; color:#FFF; position:absolute; left: 468px; top: 318px; width: 598px; height: 559px;">
+
+<h3 height="70" style="color: #CCC; font-size:30px;">Fill the form correctly to have an account</h3>
+<table width="596" height="181"  align="center" cellspacing="7px">
+<tr>
+	<td width="676" height="50"><input name="fname" type="text" size="30px" placeholder="First Name"/>
+    			
+     </td>
+</tr>
+
+<tr>
+<td width="676" height="50">
+    				<input name="sname" type="text" size="30px" placeholder="Second Name"/>
+     </td>
+</tr>
+<tr>
+	<td width="676" height="50"><select name="gender" placeholder="gender">
+               <option value=""><h3>Select your gender</h3></option>
+               <option value="M">Masculin</option>
+               <option value="F">Feminin</option>
+               </select>
+    </td>
+</tr>
+<tr>
+
+	<td height="50"><input name="phone" id="phone" type="text" size="30px" placeholder="Phone Number"/></td>
+</tr>
+
+<tr>
+	<td height="50"><input name="email" type="text" size="30px" placeholder="Email address"/></td>
+</tr>
+<tr>
+	<td height="50"><input name="pass" type="password" size="30px" placeholder="password"/><br />
+    	<input name="password" type="password" size="30px" placeholder="confirm password" onKeyUp="check;"/>
+     </td>
+</tr>
+
+</table>
+
+<div style="position:absolute; left: 149px; top: 343px; width: 366px;">
+  <a href="" style="color:  #FFF;">Terms and Conditions</a> 
+  <p style="font-size:20px; left: 28px; top: 253px;">"I agree with the terms and conditions"
+    <input type="checkbox" name="agree" value="Yes I agree"/>
+  </p>
+</div>
+
+<div style="position:absolute; left: 254px; top: 426px; font-size:25px; width: 81px; height: 31px;">
+
+  <input type="submit" name="register"  value="Register"/></div>
+  <a href="offer0.php" style="color:#FFF; font-size:20px; position:absolute; left: 274px; top: 475px;">Cancel</a> 
+</form>
+
+<div style="position: absolute; left: 49px; top: 220px; width: 1319px; height: 51px;">
+<ul>
+        <li><a href="homepage.html">HOME</a></li>
+        <li><a href="search.html">SEARCH</a>
+
+    </li>
+        <li><a>SOCIAL MEDIA</a>
+    <ul>
+        <li><a href="https://facebook.com">Our facebook</a></li>
+    <li><a href="https://instagram.com">Our instagram</a></li>
+   </ul>
+    </li>
+        <li><a>CONTACT</a>
+    <ul>
+        <li><a>+254740255020</a></li>
+        <li><a>houseofhope@gmail.com</a></li>
+   </ul></li>
+        <li><a href="sch.html">SCHEDULE</a>
+    </li>
+   </ul>  
+</div>
+<a href="homepage.html"><span style="position:absolute; width: 238px; top: 31px; left: 50px; height: 184px;"><img src="image/b5f4a835170e0c5ab0676059a99f3e88.png" alt="logo" width="243" height="184"/></span></a>
+
+</div>
+</body>
+</html>
+
+</body>
+</html>
